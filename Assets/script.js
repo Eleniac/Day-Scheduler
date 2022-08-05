@@ -21,6 +21,9 @@ function changColor () {
 )}; changeColor ()
 
 
+var savebtn= document.querySelector (".btn btn-primary col-1")
+console.log ("store info")
+localStorage.setitem("savebtn",JSON.stringify)
 
 
 
