@@ -9,15 +9,22 @@ function getTime () {
     }, 1000
 )}; getTime ()
 
-var past = document.querySelectorAll (".row")
+// var past = document.querySelectorAll (".row")
 
-function pastTime () {
-    setInterval (function () {
-        var dayTimes = moment ().format ("dddd, MMMM, Do, YYYY h:mm:ss a");
-        past.innerHTML = past
-    }, 1000 * 60
-    )}; pastTime ()
+// function pastTime () {
+//     setInterval (function () {
+//         var dayTimes = moment ().format ("dddd, MMMM, Do, YYYY h:mm:ss a");
+//         past.innerHTML = past
+//     }, 1000 * 60
+//     )}; pastTime ()
 
-    for (var i = 0; i != dayTimes; i++) {
+//     for (var i = 0; i != dayTimes; i++) {
      
-      }
+//       }
+      $("textarea").each(function(){
+
+        
+      })
+      
+
+      
