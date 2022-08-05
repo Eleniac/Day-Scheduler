@@ -9,7 +9,7 @@ function getTime () {
     }, 1000
 )}; getTime ()
 
-var past = document.querySelectorAll ("")
+var past = document.querySelectorAll (".row")
 
 function pastTime () {
     setInterval (function () {
@@ -18,3 +18,6 @@ function pastTime () {
     }, 1000 * 60
     )}; pastTime ()
 
+    for (var i = 0; i != dayTimes; i++) {
+     
+      }
