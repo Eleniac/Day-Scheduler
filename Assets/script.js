@@ -9,6 +9,25 @@ function getTime () {
     }, 1000
 )}; getTime ()
 
+
+var blocksElement = document.querySelector ("#timeblocks")
+
+function changColor () {
+    setInterval (function () {
+        var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
+        var present = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
+        blocksElement.innerHTML = 
+    }, 1000 * 6
+)}; changeColor ()
+
+
+
+
+
+
+
+
+
 // var past = document.querySelectorAll (".row")
 
 // function pastTime () {
@@ -21,10 +40,10 @@ function getTime () {
 //     for (var i = 0; i != dayTimes; i++) {
      
 //       }
-      $("textarea").each(function(){
+    //   $("textarea").each(function(){
 
         
-      })
+    //   })
       
 
       
