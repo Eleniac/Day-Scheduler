@@ -12,11 +12,11 @@ function getTime () {
 
 var blocksElement = document.querySelector ("#timeblocks")
 
-function changColor () {
+function changeColor () {
     setInterval (function () {
         var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
         var present = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
-        blocksElement.innerHTML = hour
+        bloacksElement.innerHTML = hour
     }, 1000 * 6
 )}; changeColor ()
 
@@ -37,18 +37,7 @@ function saveEvent () {
 
 
 
-// var past = document.querySelectorAll (".row")
 
-// function pastTime () {
-//     setInterval (function () {
-//         var dayTimes = moment ().format ("dddd, MMMM, Do, YYYY h:mm:ss a");
-//         past.innerHTML = past
-//     }, 1000 * 60
-//     )}; pastTime ()
-
-//     for (var i = 0; i != dayTimes; i++) {
-     
-//       }
     //   $("textarea").each(function(){
 
         
