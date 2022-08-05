@@ -27,6 +27,7 @@ for (var i =0; i = timeElement.length; i++) {
 
 var savebtn= document.querySelector (".btn btn-primary col-1")
 function saveEvent () {
+    document.getElementbyId ("saveBtn").innerHTML
     localStorage.setitem("submission",JSON.stringify(savebtn))
 }; saveEvent ()
 
