@@ -5,7 +5,16 @@ var timerElement = document.querySelector (".timer")
 function getTime () {
     setInterval (function () {
         var day = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a");
-        console.log ("hello");
         timerElement.innerHTML = day 
     }, 1000
 )}; getTime ()
+
+var past = document.querySelectorAll ("")
+
+function pastTime () {
+    setInterval (function () {
+        var dayTimes = moment ().format ("dddd, MMMM, Do, YYYY h:mm:ss a");
+        past.innerHTML = past
+    }, 1000 * 60
+    )}; pastTime ()
+
