@@ -16,7 +16,7 @@ function changColor () {
     setInterval (function () {
         var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
         var present = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
-        blocksElement.innerHTML = 
+        blocksElement.innerHTML = day
     }, 1000 * 6
 )}; changeColor ()
 
