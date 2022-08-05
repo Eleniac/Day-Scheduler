@@ -16,14 +16,20 @@ function changColor () {
     setInterval (function () {
         var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
         var present = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
-        blocksElement.innerHTML = day
+        blocksElement.innerHTML = hour
     }, 1000 * 6
 )}; changeColor ()
 
 
+for (var i =0; i = timeElement.length; i++) {
+     + timeElement [i] + ".";
+}
+
 var savebtn= document.querySelector (".btn btn-primary col-1")
-console.log ("store info")
-localStorage.setitem("savebtn",JSON.stringify)
+function saveEvent () {
+    localStorage.setitem("submission",JSON.stringify(savebtn))
+}; saveEvent ()
+
 
 
 
