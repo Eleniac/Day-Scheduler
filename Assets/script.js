@@ -18,8 +18,10 @@ var past = document.querySelector (".time-block")
 for (var i = 0; i < past; i++) {
      + timeElement [i] + ".";
 }
-    if (hour < timerElement) {
-        
+
+
+    if (i < 10) {
+
     }
 
 

@@ -15,7 +15,7 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 
 
 # Usage
-The calendar utlizes HTML, CSS, JavaScript, Google Fonts and Bootstrap. 
+The calendar utlizes HTML, CSS, JavaScript, Google Fonts and Bootstrap. Bootstrap set the background for the planner. 
 
 # Credits
 
