@@ -18,6 +18,10 @@ var past = document.querySelector (".time-block")
 for (var i = 0; i < past; i++) {
      + timeElement [i] + ".";
 }
+    if (hour < timerElement) {
+        
+    }
+
 
 var present = document.querySelector (".time-block")
 for (var i = 0; i < future; i++) {
@@ -30,6 +34,9 @@ for (var i = 0; i < future; i++) {
      + timeElement [i] + ".";
 }
 
+//if time has moved past current time turn time-block red
+//if time is in the future turn time-block green
+//if the time is the current time turn grey
 
 
 
