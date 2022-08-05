@@ -10,20 +10,28 @@ function getTime () {
 )}; getTime ()
 
 
-var blocksElement = document.querySelector ("#timeblocks")
+//11 hours
+//loop over time blocks
+//check if I have moved past the time
 
-function changeColor () {
-    setInterval (function () {
-        var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
-        var present = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
-        bloacksElement.innerHTML = hour
-    }, 1000 * 6
-)}; changeColor ()
-
-
-for (var i =0; i = timeElement.length; i++) {
+var past = document.querySelector (".time-block")
+for (var i = 0; i < past; i++) {
      + timeElement [i] + ".";
 }
+
+var present = document.querySelector (".time-block")
+for (var i = 0; i < future; i++) {
+     + timeElement [i] + ".";
+}
+
+
+var future = document.querySelector (".time-block")
+for (var i = 0; i < future; i++) {
+     + timeElement [i] + ".";
+}
+
+
+
 
 var savebtn= document.querySelector (".btn btn-primary col-1")
 function saveEvent () {
@@ -39,10 +47,20 @@ function saveEvent () {
 
 
 
+
     //   $("textarea").each(function(){
 
         
     //   })
       
 
-      
+    
+// var blocksElement = document.querySelector ("#timeblocks")
+
+// function changeColor () {
+//     setInterval (function () {
+//         var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
+//         var present = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
+//         bloacksElement.innerHTML = hour
+//     }, 1000 * 6
+// )}; changeColor ()  
