@@ -39,10 +39,17 @@ for (var i = 0; i < future; i++) {
 //if the time is the current time turn grey
 
 
+  
+    function saveEvent () {
+        document.getElementById ("saveBtn").innerHTML = "save";
+        saveBtn.addEventListener("click",saveEvent)
+    } 
 
-
-    localStorage.setitem("saveBtn",JSON.stringify())
-
+    function setItem (){
+        localStorage.setitem("saveBtn",JSON.stringify())
+        console.log (saveBtn)
+    } setItem ()
+  
 
 
 
