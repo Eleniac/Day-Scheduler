@@ -10,16 +10,14 @@ function getTime () {
 )}; getTime ()
 
 
-//11 hours
+//10 hours
 //loop over time blocks
 //check if I have moved past the time
 
-var past = document.querySelector (".time-block")
+var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
 for (var i = 0; i < past; i++) {
      + timeElement [i] + ".";
 }
-
-
     if (i < 10) {
 
     }
@@ -42,11 +40,8 @@ for (var i = 0; i < future; i++) {
 
 
 
-var savebtn= document.querySelector (".btn btn-primary col-1")
-function saveEvent () {
-    document.getElementbyId ("saveBtn").innerHTML
-    localStorage.setitem("submission",JSON.stringify(savebtn))
-}; saveEvent ()
+
+    localStorage.setitem("saveBtn",JSON.stringify())
 
 
 

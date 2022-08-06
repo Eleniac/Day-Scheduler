@@ -15,7 +15,7 @@ https://github.com/Eleniac/Web-Dev-Portfolio.git
 
 
 # Usage
-The calendar utlizes HTML, CSS, JavaScript, Google Fonts and Bootstrap. Bootstrap set the background for the planner. 
+The calendar utlizes HTML, CSS, JavaScript, Google Fonts and Bootstrap. Bootstrap set the background for the planner. The function timeInterval keeps the timer running with the correct day and time. 
 
 # Credits
 
