@@ -10,26 +10,37 @@ function getTime () {
 )}; getTime ()
 
 
-//10 hours
+
+
+var blocksElement = document.querySelectorAll ("#timeblocks")
+
+function changeColor () {
+    setInterval (function () {
+        var past = moment().format (day)
+        var present = moment().format (day)
+        bloacksElement.innerHTML = day
+    }, 1000 * 6
+)}; changeColor ()  
+
+
 //loop over time blocks
 //check if I have moved past the time
+var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
 
-var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
+
+var past = document.querySelector (".past")
 for (var i = 0; i < past; i++) {
      + timeElement [i] + ".";
 }
-    if (i < 10) {
-
-    }
 
 
-var present = document.querySelector (".time-block")
-for (var i = 0; i < future; i++) {
+var present = document.querySelector (".present")
+for (var i = 0; i < timeBlocks; i++) {
      + timeElement [i] + ".";
 }
 
 
-var future = document.querySelector (".time-block")
+var future = document.querySelector (".future")
 for (var i = 0; i < future; i++) {
      + timeElement [i] + ".";
 }
@@ -66,12 +77,5 @@ for (var i = 0; i < future; i++) {
       
 
     
-// var blocksElement = document.querySelector ("#timeblocks")
 
-// function changeColor () {
-//     setInterval (function () {
-//         var past = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
-//         var present = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a")
-//         bloacksElement.innerHTML = hour
-//     }, 1000 * 6
-// )}; changeColor ()  
+
