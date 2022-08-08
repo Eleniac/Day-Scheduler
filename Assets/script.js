@@ -9,13 +9,12 @@ function getTime () {
     }, 1000
 )}; getTime ()
 
-// var blocksElement = document.querySelectorAll ("#timeblocks")
+
 
 // function changeColor () {
 //     setInterval (function () {
-//         var past = moment().format (day)
-//         var present = moment().format (day)
-//         blocksElement.innerHTML = day
+//      var blocksElement = document.querySelectorAll ("#timeblocks")
+//      blocksElement.innerHTML = day
 //     }, 1000 * 6
 // )}; changeColor ()  
 
@@ -27,7 +26,7 @@ var present = document.querySelector (".present")
 var future = document.querySelector (".future")
 
 for (var i = 0; i = timeBlocks; i++) {
-     + timeElement [i] + ".";
+     + timerElement [i] + ".";
 }
 
 //adding a class using Jquery
@@ -37,18 +36,18 @@ $("textarea").each (function () {
 });
 
 //check if it has moved past the time
-if (day === col-10) {
+if (moment().format === col-1) {
     $(timeBlocks).addClass.past
 };
 
-if (day === col-10) {
+if (moment().format === col-1) {
     $(timeBlocks).addClass.present
 };
 
-if (day === col-10) {
-    $(timeBlocks).addClass.future
-};
 
+if (moment().format === col-1) {
+    $(timeBlocks).addClass.furture
+};
 
 
 //save event to local storage
