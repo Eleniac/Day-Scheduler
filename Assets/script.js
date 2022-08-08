@@ -11,12 +11,13 @@ function getTime () {
 
 
 
-// function changeColor () {
-//     setInterval (function () {
-//      var blocksElement = document.querySelectorAll ("#timeblocks")
-//      blocksElement.innerHTML = day
-//     }, 1000 * 6
-// )}; changeColor ()  
+function changeColor () {
+    setInterval (function () {
+     var blocksElement = document.querySelectorAll (".time-block")
+     var day = moment().format ("dddd, MMMM, Do, YYYY h:mm:ss a");
+     blocksElement.innerHTML = day
+    }, 1000 * 6
+)}; changeColor ()  
 
 
 //9 hours total
@@ -51,15 +52,15 @@ if (moment().format === column) {
 
 
 //save event to local storage
-
+var saveBtn = document.querySelector ("#saveBtn")
     function saveEvent () {
-        document.getElementById ("saveBtn").innerHTML = "save";
+        document.getElementById ("saveBtn")
         saveBtn.addEventListener("click",saveEvent)
     } saveEvent ()
    
-
+var textArea= document.querySelectorAll ("textarea")
     function setItem (){
-        localStorage.setitem("saveBtn",JSON.stringify())
+        localStorage.setitem("saveBtn",textArea)
         console.log (saveBtn)
     } setItem ()
  
