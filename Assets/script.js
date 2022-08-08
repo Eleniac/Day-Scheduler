@@ -26,13 +26,13 @@ function changeColor () {
 //9 hours
 
 
-var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
-$("textarea").each (function () {
-    $(this).addClass ("col-1");
-});
-if (getTime === col-10) {
-    $(timeBlocks).addClass(present,function (indexpresent)
-});
+// var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
+// $("textarea").each (function () {
+//     $(this).addClass ("col-1");
+// });
+// if (day === col-10) {
+//     $(timeBlocks).addClass(present,function (indexpresent)
+// });
 
 // var past = document.querySelector (".past")
 // var present = document.querySelector (".present")
@@ -71,11 +71,6 @@ if (getTime === col-10) {
 
 
 
-    //   $("textarea").each(function(){
-
-        
-    //   })
-      
 
     
 
