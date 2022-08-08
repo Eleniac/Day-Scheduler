@@ -9,31 +9,6 @@ function getTime () {
     }, 1000
 )}; getTime ()
 
-//9 hours total
-//loop over time blocks
-//check if it has moved past the time
-//apply classes
-
-var past = document.querySelector (".past")
-var present = document.querySelector (".present")
-for (var i = 0; i < timeBlocks; i++) {
-     + timeElement [i] + ".";
-}
-
-var future = document.querySelector (".future")
-for (var i = 0; i < future; i++) {
-     + timeElement [i] + ".";
-}
-
-var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
-$("textarea").each (function () {
-    $(this).addClass ("col-1");
-});
-if (day === col-10) {
-    $(timeBlocks).addClass(present,function (indexpresent)
-});
-
-
 // var blocksElement = document.querySelectorAll ("#timeblocks")
 
 // function changeColor () {
@@ -43,6 +18,28 @@ if (day === col-10) {
 //         bloacksElement.innerHTML = day
 //     }, 1000 * 6
 // )}; changeColor ()  
+
+
+//9 hours total
+//loop over time blocks
+var past = document.querySelector (".past")
+var present = document.querySelector (".present")
+var future = document.querySelector (".future")
+
+for (var i = 0; i < timeBlocks; i++) {
+     + timeElement [i] + ".";
+}
+
+//adding a class using Jquery
+var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
+$("textarea").each (function () {
+    $(this).addClass ("col-1");
+});
+
+//check if it has moved past the time
+if (day === col-10) {
+    $(timeBlocks).addClass(present,function (indexpresent)
+});
 
 
 //save event to local storage
