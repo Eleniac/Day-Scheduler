@@ -15,7 +15,7 @@ function getTime () {
 //     setInterval (function () {
 //         var past = moment().format (day)
 //         var present = moment().format (day)
-//         bloacksElement.innerHTML = day
+//         blocksElement.innerHTML = day
 //     }, 1000 * 6
 // )}; changeColor ()  
 
@@ -26,7 +26,7 @@ var past = document.querySelector (".past")
 var present = document.querySelector (".present")
 var future = document.querySelector (".future")
 
-for (var i = 0; i < timeBlocks; i++) {
+for (var i = 0; i = timeBlocks; i++) {
      + timeElement [i] + ".";
 }
 
@@ -38,8 +38,17 @@ $("textarea").each (function () {
 
 //check if it has moved past the time
 if (day === col-10) {
-    $(timeBlocks).addClass(present,function (indexpresent)
-});
+    $(timeBlocks).addClass.past
+};
+
+if (day === col-10) {
+    $(timeBlocks).addClass.present
+};
+
+if (day === col-10) {
+    $(timeBlocks).addClass.future
+};
+
 
 
 //save event to local storage
