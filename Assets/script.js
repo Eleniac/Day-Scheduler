@@ -9,48 +9,43 @@ function getTime () {
     }, 1000
 )}; getTime ()
 
+//9 hours total
+//loop over time blocks
+//check if it has moved past the time
+//apply classes
+
+var past = document.querySelector (".past")
+var present = document.querySelector (".present")
+for (var i = 0; i < timeBlocks; i++) {
+     + timeElement [i] + ".";
+}
+
+var future = document.querySelector (".future")
+for (var i = 0; i < future; i++) {
+     + timeElement [i] + ".";
+}
+
+var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
+$("textarea").each (function () {
+    $(this).addClass ("col-1");
+});
+if (day === col-10) {
+    $(timeBlocks).addClass(present,function (indexpresent)
+});
 
 
+// var blocksElement = document.querySelectorAll ("#timeblocks")
 
-var blocksElement = document.querySelectorAll ("#timeblocks")
-
-function changeColor () {
-    setInterval (function () {
-        var past = moment().format (day)
-        var present = moment().format (day)
-        bloacksElement.innerHTML = day
-    }, 1000 * 6
-)}; changeColor ()  
-
-
-//9 hours
+// function changeColor () {
+//     setInterval (function () {
+//         var past = moment().format (day)
+//         var present = moment().format (day)
+//         bloacksElement.innerHTML = day
+//     }, 1000 * 6
+// )}; changeColor ()  
 
 
-// var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
-// $("textarea").each (function () {
-//     $(this).addClass ("col-1");
-// });
-// if (day === col-10) {
-//     $(timeBlocks).addClass(present,function (indexpresent)
-// });
-
-// var past = document.querySelector (".past")
-// var present = document.querySelector (".present")
-// for (var i = 0; i < timeBlocks; i++) {
-//      + timeElement [i] + ".";
-// }
-
-
-// var future = document.querySelector (".future")
-// for (var i = 0; i < future; i++) {
-//      + timeElement [i] + ".";
-// }
-
-//if time has moved past current time turn time-block red
-//if time is in the future turn time-block green
-//if the time is the current time turn grey
-
-
+//save event to local storage
 
     function saveEvent () {
         document.getElementById ("saveBtn").innerHTML = "save";
