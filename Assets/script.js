@@ -34,18 +34,18 @@ var timeBlocks= ["8", "9", "10","11", "12", "1","2","3","4", "5"]
 $("textarea").each (function () {
     $(this).addClass ("col-1");
 });
-
+var column = document.querySelectorAll (".col-1")
 //check if it has moved past the time
-if (moment().format === col-1) {
+if (moment().format === column) {
     $(timeBlocks).addClass.past
 };
 
-if (moment().format === col-1) {
+if (moment().format === column) {
     $(timeBlocks).addClass.present
 };
 
 
-if (moment().format === col-1) {
+if (moment().format === column) {
     $(timeBlocks).addClass.furture
 };
 
@@ -55,13 +55,14 @@ if (moment().format === col-1) {
     function saveEvent () {
         document.getElementById ("saveBtn").innerHTML = "save";
         saveBtn.addEventListener("click",saveEvent)
-    } 
+    } saveEvent ()
+   
 
     function setItem (){
         localStorage.setitem("saveBtn",JSON.stringify())
         console.log (saveBtn)
     } setItem ()
-  
+ 
 
 
 
