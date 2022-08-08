@@ -54,7 +54,7 @@ if (moment().format === column) {
 //save event to local storage
 var saveBtn = document.querySelector ("#saveBtn")
     function saveEvent () {
-        document.getElementById ("saveBtn")
+        // document.getElementById ("saveBtn").innerHTML = saveBtn;
         saveBtn.addEventListener("click",saveEvent)
     } saveEvent ()
    
